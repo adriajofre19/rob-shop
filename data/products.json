@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "id": "targeter",
+      "name": "Targeter",
+      "image": "https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8",
+      "description": "Màxima simplicitat i ahora molt pràctic. Amb un petit moviment de dit impulses les targetes.",
+      "products": [
+        {
+          "id": "t1",
+          "name": "Targeter Classic",
+          "price": 15.99,
+          "image": "https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8",
+          "description": "Diseño clásico en azul marino, perfecto para 4-6 tarjetas",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93",
+            "https://images.unsplash.com/photo-1604176354204-9268737828e4"
+          ],
+          "details": [
+            "Capacidad: 4-6 tarjetas",
+            "Dimensiones: 9cm x 6cm",
+            "Color: Azul marino",
+            "Mecanismo de empuje suave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estoig",
+      "name": "Estoig",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+      "description": "Estoigs pràctics i resistents per a tots els teus objectes.",
+      "products": [
+        {
+          "id": "e1",
+          "name": "Estoig Basic",
+          "price": 12.99,
+          "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+          "description": "Estuche básico perfecto para material escolar",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93",
+            "https://images.unsplash.com/photo-1604176354204-9268737828e4"
+          ],
+          "details": [
+            "Dimensiones: 20cm x 8cm",
+            "Cierre con cremallera",
+            "Interior espacioso",
+            "Diseño resistente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bossa-ma",
+      "name": "Bossa de mà",
+      "image": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2",
+      "description": "Bosses elegants i pràctiques per al dia a dia.",
+      "products": [
+        {
+          "id": "bm1",
+          "name": "Bossa de mà Elegant",
+          "price": 29.99,
+          "image": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2",
+          "description": "Bolso elegante para uso diario",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16",
+            "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09"
+          ],
+          "details": [
+            "Capacidad: 15L",
+            "Dimensiones: 35cm x 25cm",
+            "Bolsillo interior",
+            "Asas reforzadas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "necesser",
+      "name": "Necesser",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+      "description": "Necessers pràctics per als teus productes de bellesa i higiene.",
+      "products": [
+        {
+          "id": "n1",
+          "name": "Necesser Compacte",
+          "price": 18.99,
+          "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+          "description": "Neceser compacto y espacioso",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93",
+            "https://images.unsplash.com/photo-1604176354204-9268737828e4"
+          ],
+          "details": [
+            "Dimensiones: 25cm x 15cm",
+            "Compartimentos múltiples",
+            "Impermeable",
+            "Fácil de limpiar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bossa-xs",
+      "name": "Bossa XS",
+      "image": "https://images.unsplash.com/photo-1604176354204-9268737828e4",
+      "description": "Bosses petites i pràctiques per al dia a dia.",
+      "products": [
+        {
+          "id": "bxs1",
+          "name": "Mini Bossa Essential",
+          "price": 24.99,
+          "image": "https://images.unsplash.com/photo-1604176354204-9268737828e4",
+          "description": "Bolso pequeño perfecto para lo esencial",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16",
+            "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09"
+          ],
+          "details": [
+            "Tamaño compacto",
+            "Perfecto para salidas cortas",
+            "Bolsillo exterior",
+            "Cierre seguro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motxila",
+      "name": "Motxila",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "description": "Motxiles còmodes i espaioses per a totes les teves aventures.",
+      "products": [
+        {
+          "id": "m1",
+          "name": "Motxila Urban",
+          "price": 39.99,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+          "description": "Mochila urbana versátil y espaciosa",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16",
+            "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09"
+          ],
+          "details": [
+            "Capacidad: 20L",
+            "Compartimento para portátil",
+            "Bolsillos organizadores",
+            "Tirantes acolchados"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ampolla",
+      "name": "Ampolla de vidre 500ml",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+      "description": "Ampolles de vidre per a un consum més sostenible.",
+      "products": [
+        {
+          "id": "a1",
+          "name": "Ampolla Eco",
+          "price": 16.99,
+          "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+          "description": "Botella de vidrio con funda protectora reciclada",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16",
+            "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09"
+          ],
+          "details": [
+            "Capacidad: 500ml",
+            "Vidrio resistente",
+            "Funda protectora",
+            "Tapón hermético"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bosseta-aliments",
+      "name": "Bosseta aliments",
+      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09",
+      "description": "Bosses reutilitzables per als teus aliments.",
+      "products": [
+        {
+          "id": "ba1",
+          "name": "Bossa Snack",
+          "price": 9.99,
+          "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09",
+          "description": "Bolsa reutilizable para snacks y alimentos",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16",
+            "https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8"
+          ],
+          "details": [
+            "Cierre hermético",
+            "Lavable",
+            "Libre de BPA",
+            "Tamaño compacto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "targeter",
+      "name": "Targeter",
+      "image": "https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8",
+      "description": "Màxima simplicitat i ahora molt pràctic. Amb un petit moviment de dit impulses les targetes.",
+      "products": [
+        {
+          "id": "t1",
+          "name": "Targeter Classic",
+          "price": 15.99,
+          "image": "https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8",
+          "description": "Diseño clásico en azul marino, perfecto para 4-6 tarjetas",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1627123424574-724758594e93",
+            "https://images.unsplash.com/photo-1604176354204-9268737828e4"
+          ],
+          "details": [
+            "Capacidad: 4-6 tarjetas",
+            "Dimensiones: 9cm x 6cm",
+            "Color: Azul marino",
+            "Mecanismo de empuje suave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "puntsllibre",
+      "name": "Punts de llibre",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+      "description": "Punts de llibre",
+      "products": [
+        {
+          "id": "c1",
+          "name": "Clauer Basic",
+          "price": 7.99,
+          "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+          "description": "Llavero artesanal con diseño único",
+          "additionalImages": [
+            "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16",
+            "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09"
+          ],
+          "details": [
+            "Diseño resistente",
+            "Anilla reforzada",
+            "Tamaño compacto",
+            "Varios colores disponibles"
+          ]
+        }
+      ]
+    }
+  ]
+}

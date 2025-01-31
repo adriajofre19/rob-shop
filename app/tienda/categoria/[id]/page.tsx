@@ -20,8 +20,8 @@ export default function CategoryPage({ params }: { params: { id: string } }) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div className="mb-12">
-        <Link 
-          href="/tienda" 
+        <Link
+          href="/tienda"
           className="text-sm text-gray-600 hover:text-emerald-600 mb-4 inline-block"
         >
           ← Volver a colecciones
@@ -32,8 +32,8 @@ export default function CategoryPage({ params }: { params: { id: string } }) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {category.products.map((product) => (
-          <Link 
-            key={product.id} 
+          <Link
+            key={product.id}
             href={`/tienda/producto/${category.id}/${product.id}`}
             className="group"
           >

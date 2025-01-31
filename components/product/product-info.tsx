@@ -32,17 +32,17 @@ export function ProductInfo({ product, category }: ProductInfoProps) {
       price: product.price,
       image: product.image
     });
-    
+
     toast?.showToast(
       "Producte afegit",
-      "S'ha afegit el producte al carret"
+      "S'ha afegit el producte a la cistella",
     );
   };
 
   return (
     <div>
       <div className="mb-8">
-        <Link 
+        <Link
           href={`/tienda/categoria/${category.id}`}
           className="text-sm text-gray-600 hover:text-emerald-600"
         >
@@ -73,8 +73,8 @@ export function ProductInfo({ product, category }: ProductInfoProps) {
       </div>
 
       {/* Add to Cart */}
-      <Button 
-        size="lg" 
+      <Button
+        size="lg"
         className="w-full bg-emerald-600 hover:bg-emerald-700"
         onClick={handleAddToCart}
       >

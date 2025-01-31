@@ -7,24 +7,34 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Load cart from localStorage on mount
   useEffect(() => {
     const savedCart = localStorage.getItem('cart');
     if (savedCart) {
-      setItems(JSON.parse(savedCart));
+      try {
+        const parsedCart = JSON.parse(savedCart);
+        setItems(parsedCart);
+      } catch (error) {
+        console.error('Error parsing cart from localStorage:', error);
+        localStorage.removeItem('cart'); // Clear invalid data
+      }
     }
+    setIsLoading(false);
   }, []);
 
   // Save cart to localStorage whenever it changes
   useEffect(() => {
-    localStorage.setItem('cart', JSON.stringify(items));
-  }, [items]);
+    if (!isLoading) { // Only save after initial load
+      localStorage.setItem('cart', JSON.stringify(items));
+    }
+  }, [items, isLoading]);
 
   const addItem = (newItem: Omit<CartItem, 'quantity'>) => {
     setItems(currentItems => {
       const existingItem = currentItems.find(item => item.id === newItem.id);
-      
+
       if (existingItem) {
         return currentItems.map(item =>
           item.id === newItem.id
@@ -32,7 +42,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
             : item
         );
       }
-      
+
       return [...currentItems, { ...newItem, quantity: 1 }];
     });
   };
@@ -43,7 +53,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   const updateQuantity = (itemId: string, quantity: number) => {
     if (quantity < 1) return;
-    
+
     setItems(currentItems =>
       currentItems.map(item =>
         item.id === itemId ? { ...item, quantity } : item
@@ -56,6 +66,11 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   };
 
   const itemsCount = items.reduce((total, item) => total + item.quantity, 0);
+
+  // Show loading state or render children
+  if (isLoading) {
+    return null; // Or a loading spinner if you prefer
+  }
 
   return (
     <CartContext.Provider value={{

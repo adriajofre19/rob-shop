@@ -5,12 +5,12 @@ import productsData from "@/data/products.json";
 export default function TiendaPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-light mb-12">Nuestras Colecciones</h1>
-      
+      <h1 className="text-4xl font-light mb-12">Els nostres productes</h1>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {productsData.categories.map((category) => (
-          <Link 
-            key={category.id} 
+          <Link
+            key={category.id}
             href={`/tienda/categoria/${category.id}`}
             className="group block"
           >
